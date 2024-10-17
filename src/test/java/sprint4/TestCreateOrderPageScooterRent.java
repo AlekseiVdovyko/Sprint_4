@@ -68,7 +68,7 @@ public class TestCreateOrderPageScooterRent {
         //driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
         startMainPage.open();
         startMainPage.clickCookieButton();
-        startMainPage.clickOrderTopButton();
+        startMainPage.clickOrderDownButton();
         createOrder.fillFirstForm(firstNameUser, lastNameUser, addressDelivery, metroStation, telephoneNumber);
         createOrder.clickFartherButton();
         createOrder.fillSecondForm(whenDeliver, rentalPeriod, colorScooter, comment);
